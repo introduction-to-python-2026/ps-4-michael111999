@@ -1,19 +1,30 @@
-def split_before_each_uppercases(formula):
+ddef split_before_each_uppercases(formula):
     x=[]
-    n=0
+    g=""
+   
     
     for ch in formula:
-        if ch.isupper():
-            x.append(formula[n:ch]
-            n==len(formula[n:ch])
+        if g=="":
+            g+=ch
+        elif ch.isupper():
+            x.append(g)
+            g=""
+
+            g+=ch
+        else:
+            g+=ch
+
+    
             
+            
+       
            
         
             
        
-
+    x.append(g)
     return x
-    
+print(split_before_each_uppercases("O5J4H3"))
    
             
 
