@@ -25,7 +25,7 @@ def split_at_first_digit(formula):
     
     
     for ch in formula:
-        if ch.isdigit and digt==False():
+        if ch.isdigit():
             x+=ch
             digt=True
             
@@ -37,4 +37,4 @@ def split_at_first_digit(formula):
             y += ch
     if digt==False:
         x+="1"
-    return y, x
+    return y, int(x)
