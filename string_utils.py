@@ -19,14 +19,15 @@ def split_before_each_uppercases(formula):
 
 
 def split_at_first_digit(formula):
-    x = ""
+    x=[]
     y = ""
     
     
     for ch in formula:
         if ch.isdigit():
+            x.append[0:ch]
+        
             
-            y += ch
        
             
         elif ch.isalpha():
