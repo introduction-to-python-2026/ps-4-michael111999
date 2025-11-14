@@ -1,4 +1,4 @@
-ddef split_before_each_uppercases(formula):
+def split_before_each_uppercases(formula):
     x=[]
     g=""
    
@@ -24,7 +24,7 @@ ddef split_before_each_uppercases(formula):
        
     x.append(g)
     return x
-print(split_before_each_uppercases("O5J4H3"))
+
    
             
 
