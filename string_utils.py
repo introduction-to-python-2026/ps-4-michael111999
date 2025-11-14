@@ -21,8 +21,8 @@ def split_before_each_uppercases(formula):
            
         
             
-       
-    x.append(g)
+    if g!="":   
+        x.append(g)
     return x
 
    
